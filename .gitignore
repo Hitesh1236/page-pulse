@@ -1,0 +1,19 @@
+# Root .gitignore for page-pulse
+
+# Dependencies
+node_modules/
+
+# Build & Output folders
+client/dist/
+client/build/
+
+# Environment variables
+.env
+*.env.local
+
+# Testing / Coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db

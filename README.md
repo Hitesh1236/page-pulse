@@ -10,7 +10,6 @@ Built for the **Digital Heroes Training Task**.
 
 - **Live Application**: [https://page-pulse-tan.vercel.app](https://page-pulse-tan.vercel.app)
 - **Backend API**: [https://page-pulse-api-tath.onrender.com](https://page-pulse-api-tath.onrender.com)
-- **Loom Demo Video**: [Watch 2-Minute Demo](https://loom.com) *(Update with your Loom link)*
 
 ---
 

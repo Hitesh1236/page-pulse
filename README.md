@@ -8,8 +8,8 @@ Built for the **Digital Heroes Training Task**.
 
 ## 🔗 Live Links
 
-- **Live Application**: [https://page-pulse.vercel.app](https://page-pulse.vercel.app) *(Update with your Vercel link)*
-- **Backend API**: [https://page-pulse-api.onrender.com](https://page-pulse-api.onrender.com) *(Update with your Render link)*
+- **Live Application**: [https://page-pulse-tan.vercel.app](https://page-pulse-tan.vercel.app)
+- **Backend API**: [https://page-pulse-api-tath.onrender.com](https://page-pulse-api-tath.onrender.com)
 - **Loom Demo Video**: [Watch 2-Minute Demo](https://loom.com) *(Update with your Loom link)*
 
 ---

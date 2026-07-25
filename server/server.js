@@ -5,7 +5,25 @@ const cheerio = require('cheerio');
 
 const app = express();
 
-app.use(cors());
+// Allowed frontend origins
+const allowedOrigins = [
+  'http://localhost:5173', // For local development
+  process.env.CLIENT_URL,   // For live Vercel production
+].filter(Boolean);          // Removes empty values if CLIENT_URL isn't set yet
+
+
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Blocked by CORS policy'));
+      }
+    },
+  })
+);
 app.use(express.json());
 
 app.post('/api/audit', async (req, res) => {
